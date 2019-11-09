@@ -1,0 +1,78 @@
+body {
+		margin: 0;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: black;
+    font-size: 14pt;
+    /*font-weight: bold;*/
+}
+
+
+div > h1 {
+	color: teal;
+	font-weight: bold;
+}
+
+div > p {
+	color: #616060;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+#left {
+	float: left;
+	width: 65%;
+	background-color: white;	
+}
+
+
+#right {
+	float: right;
+	background-color: white;
+}
+
+.img-size {
+	width: 90%;
+	height: auto;
+}
+
+.img-size-compare {
+	width: 50%;
+	height: auto;
+}
+
+
+figure figcaption {
+    text-align: center;
+    color: teal;
+}
+
+
+.footer p {
+	color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 6px solid teal;
+  color: white;
+  font-size: 12 px;
+  background-color: #616060;
+  text-align: center;
+}
+
+#compare-footer {
+	position: static;
+
+}
+
+/*nav bar is responsive as designed, added media query to change font color/size on smaller sizes to satisfy requirement*/
+@media (max-width: 600px) {
+    .nav.navbar-nav.navbar-right li a {
+    color: blue;
+    font-size: 10pt;
+  }
+}
